@@ -42,31 +42,63 @@
         android:id="@+id/snapBtn"
         android:layout_width="194dp"
         android:layout_height="63dp"
-        android:layout_marginTop="120dp"
-        android:text="@string/snap"
-        android:textStyle="bold"
-        android:textColor="@color/black"
+        android:layout_marginBottom="116dp"
         android:backgroundTint="@color/grey"
+        android:text="@string/snap"
+        android:textColor="@color/black"
+
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/resultScreen"
-        app:layout_constraintVertical_bias="0.341" />
+        app:layout_constraintTop_toBottomOf="@+id/shareBtn"
+        tools:ignore="VisualLintOverlap" />
 
     <Button
         android:id="@+id/detectBtn"
         android:layout_width="194dp"
         android:layout_height="63dp"
-        android:text="@string/detect"
-        android:textStyle="bold"
-        android:textColor="@color/black"
         android:backgroundTint="@color/grey"
+        android:text="@string/detect"
+        android:textColor="@color/black"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.758" />
+        app:layout_constraintVertical_bias="0.558" />
+
+    <Button
+        android:id="@+id/searchBtn"
+        android:layout_width="194dp"
+        android:layout_height="63dp"
+        android:backgroundTint="@color/grey"
+        android:text="@string/search_on_google"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.931"
+        tools:ignore="DuplicateClickableBoundsCheck" />
+
+    <Button
+        android:id="@+id/shareBtn"
+        android:layout_width="194dp"
+        android:layout_height="63dp"
+        android:backgroundTint="@color/grey"
+        android:text="@string/share_to"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.687" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

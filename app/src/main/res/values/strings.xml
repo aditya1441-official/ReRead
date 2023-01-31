@@ -5,4 +5,6 @@
     <string name="your_result_will_appear_here">Your Result Will Appear Here</string>
     <string name="snap">Snap</string>
     <string name="detect">Detect</string>
+    <string name="search_on_google">Search On Google</string>
+    <string name="share_to">Share To</string>
 </resources>
